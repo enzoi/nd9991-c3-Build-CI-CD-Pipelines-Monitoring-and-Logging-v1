@@ -16,7 +16,7 @@
   ec2:
     key_name: ec2-udemy-jenkins
     instance_type: t2.nano
-    image: ami-0873b46c45c11058d
+    image: ami-0a634ae95e11c6f91
     user_data: "{{ USERDATA }}"
     region: us-west-2
     group_id:
